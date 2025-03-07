@@ -15,7 +15,7 @@ const Trends = () => {
             <h2 className='text-2xl font-bold mb-4'>Twitter Trends</h2>
             <ul className='mt-4'>
                 {trend.map((trends) => (
-                    <li key={trend.id} className='p-2 border rounded mb-2'>{trend.topic}</li>
+                    <li key={trends.id} className='p-2 border rounded mb-2'>{trends.topic}</li>
                 ))}
             </ul>
         </div>
