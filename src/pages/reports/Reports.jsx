@@ -8,7 +8,7 @@ const Reports = () => {
 
     const [reportData, setReportData] =useState([])
 
-    const API_URL = 'https://api.example.com/reports';
+    const API_URL = 'https://jsonplaceholder.typicode.com/posts';
 
     useEffect(() => {
         const fetchData = async () => {
