@@ -3,7 +3,7 @@ import axios from 'axios'
 
 export const fetchTrends = createAsyncThunk('trends/fetchTrends', async () => {
     const response = await
-    axios.get('http//jsonplaceholder.typicode.com/posts')
+    axios.get('http://jsonplaceholder.typicode.com/posts')
     return response.data.slice(0, 5).map(post => ({
         name: post.title,
         engagements: Math.floor(Math.random() * 1000)
