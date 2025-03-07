@@ -5,7 +5,7 @@ import Navbar from '../../components/navbar/Navbar'
 const Engagements = () => {
 
     const [engagement, setEngagement] = useState([])
-        const API_URL = 'https://api.example.com/engagements'
+        const API_URL = 'https://jsonplaceholder.typicode.com/posts'
 
         useEffect(() => {
             const fetchEngagement = async () => {
