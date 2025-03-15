@@ -34,7 +34,7 @@ const Reports = () => {
   return (
     <div>
         <Navbar />
-        <div className='p-6 bg-white shadow-md rounded-lg'>
+        <div className='p-6'>
             <h2 className='text-xl font-bold mb-4'>Bot Activity Reports</h2>
             <ResponsiveContainer width='100%' height={300}>
                 <LineChart data={reportData}>

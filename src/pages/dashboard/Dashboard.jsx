@@ -20,9 +20,11 @@ const Dashboard = () => {
         {
           loading ? <p>Loading...</p> :
           <ul>
-            {trends.map((trend, index) => <li key={index}>
-              {trend.name}
-            </li>)}
+            {trends.map((trend, index) => (
+              <li key={index} className='mb-2 p-2 border-b border-gray-200'>
+                {trend.name}
+              </li>
+            ))}
           </ul>
         }
       </div>
